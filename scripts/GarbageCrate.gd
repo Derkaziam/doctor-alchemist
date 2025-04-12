@@ -21,8 +21,7 @@ func _on_player_interacted(player_id: int, interactable_id: int, item: Item, ele
 				print("I recieved ", player_id , "As a player id. This should be 1 or 0.")
 		
 		else: return
-	else:
-		return
+
 
 func get_crate() -> Area2D:
 	var crate = get_parent()
